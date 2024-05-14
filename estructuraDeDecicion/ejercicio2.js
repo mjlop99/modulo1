@@ -1,9 +1,4 @@
-/*const readline = require("readline");
 
-const r1 = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-})*/
 const evaluar = (numero1, numero2, numero3) => {
     // Convertimos los strings a enteros
     numero1 = parseInt(numero1);
@@ -28,7 +23,8 @@ const evaluar = (numero1, numero2, numero3) => {
         console.log(`numeros iguales`);
     }
 }
-/*r1.question("ingrese el primer numero: ", (numero1) => {
+/*  r1=crearInterfaz();
+    r1.question("ingrese el primer numero: ", (numero1) => {
   r1.question("ingrese el segundo numero: ", (numero2) => {
     r1.question("ingrese el tercer numero: ", (numero3) => {
         // evaluar(numero1,numero2,numero3);

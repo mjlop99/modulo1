@@ -22,6 +22,9 @@ const tipoCategoria=(categoria)=>{
     console.log(tipoVehiculo);
 }
 
-
+//   r1=crearInterfaz();
+// r1.question("ingrese el vehiculo: ", (categoria) => {
+//   tipoCategoria(categoria);
+// });
 
 module.exports=tipoCategoria

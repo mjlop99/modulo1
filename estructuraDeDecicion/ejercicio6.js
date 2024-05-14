@@ -1,10 +1,5 @@
-const readline = require("readline");
 
-const r1 = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
-const mes=()=>{
+const mes=(numeroMes)=>{
     let nombreMes='';
     switch(parseInt(numeroMes)){
         case 1:
@@ -48,7 +43,8 @@ const mes=()=>{
     }
     console.log(nombreMes)
 }
-r1.question('digite el numero del mes a conocer: ',numeroMes=>{
-    mes(numeroMes);
-});
+//   r1=crearInterfaz();
+// r1.question('digite el numero del mes a conocer: ',numeroMes=>{
+//     mes(numeroMes);
+// });
 module.exports=mes;
